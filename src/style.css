@@ -33,3 +33,68 @@ body{
   color: #622B14;
   text-align: center;
   }
+
+  .logo{
+    color: #000000;
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+
+  .nav-bar > a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+  }
+
+  .nav-bar > a:hover{
+    color: #EAECF0;
+  }
+
+  .contenedor-principal{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    felx-wrap: wrap;
+    padding: 0 20px;
+  }
+
+  .Targeta{
+    background-color: #9D6638;
+    padding: 30px;
+    width: 400px;
+    border-radius: 100px;
+    height: 175px;
+    box-shadow: 0 4px 20px #9D6638;
+  }
+
+  .Targeta:hover{
+    transform: traslateY(-10px);
+    box-shadow:0 4px 20px #1F150C
+  }
+
+  .Targeta h2{
+    margin-bottom: 15px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .Targeta p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+  .boton-targeta{
+    padding: 5px 10px;
+    border: none;
+    background-color: #8C5A3C;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .boton-targeta:hover{
+    background-color: aliceblue;
+  }
+
+
