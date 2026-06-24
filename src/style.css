@@ -55,7 +55,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 200px;
-    felx-wrap: wrap;
+    flex-wrap: wrap;
     padding: 0 20px;
   }
 
