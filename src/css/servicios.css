@@ -1,0 +1,50 @@
+*{
+    margin: 30px 50px;
+}
+.titulo-unico{
+    color: #4274D9;
+    text-align: center;
+}
+
+.contenedor-servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+    height: 200px;
+}
+
+.subtitulo-unico{
+    text-align: center;
+    color: #4274D9;
+
+}
+.caja{
+    color: rgb(0, 0, 0);
+    background-color: #f7f1ec;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px #13100d;
+    transition: trasform 0.3s ease, box-shadow 0.3 ease;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.caja1{
+    grid-area: 1/1/6/3;
+    text-align: left;
+}
+
+.caja3{
+    grid-area: 2/3/6 ;
+
+}
+
+
+.caja4{
+    grid-area:6/1/18/1;
+}
+
+.caja5{
+    grid-area: 6/2/18/4;
+}
